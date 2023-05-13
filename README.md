@@ -20,10 +20,6 @@ I was always fascinated by the food culture of Bengaluru. Restaurants from all o
 ## Content 📋
 The basic idea of analyzing the Zomato dataset is to get a fair idea about the factors affecting the establishment of different types of restaurant at different places in Bengaluru, aggregate rating of each restaurant, Bengaluru being one such city has more than 12,000 restaurants with restaurants serving dishes from all over the world. With each day new restaurants opening the industry has’nt been saturated yet and the demand is increasing day by day. Inspite of increasing demand it however has become difficult for new restaurants to compete with established restaurants. Most of them serving the same food. Bengaluru being an IT capital of India. Most of the people here are dependent mainly on the restaurant food as they don’t have time to cook for themselves. With such an overwhelming demand of restaurants it has therefore become important to study the demography of a location. What kind of a food is more popular in a locality. Do the entire locality loves vegetarian food. If yes then is that locality populated by a particular sect of people for eg. Jain, Marwaris, Gujaratis who are mostly vegetarian. These kind of analysis can be done using the data, by studying the factors such as • Location of the restaurant • Approx Price of food • Theme based restaurant or not • Which locality of that city serves that cuisines with maximum number of restaurants • The needs of people who are striving to get the best cuisine of the neighborhood • Is a particular neighborhood famous for its own kind of food.
 
-“Just so that you have a good meal the next time you step out”
-
-The data is accurate to that available on the zomato website until 15 March 2019. The data was scraped from Zomato in two phase. After going through the structure of the website I found that for each neighborhood there are 6-7 category of restaurants viz. Buffet, Cafes, Delivery, Desserts, Dine-out, Drinks & nightlife, Pubs and bars.
-
 ## Methodology 🛠️
 ### Phase I,
 
@@ -37,11 +33,12 @@ In Phase II the recorded data for each restaurant and each category was read and
 In Phase III, Sentiment Analysis of Reviews of the dataset to identify the feelings of the users towards Restaurants. Sentiment analysis is the computational task of automatically determining what feelings a writer is expressing in text. Sentiment is often framed as a binary distinction (positive vs. negative), but it can also be a more fine-grained, like identifying the specific emotion an author is expressing (like fear, joy or anger).
 
 ### Phase IV,
-The rapid growth of data collection has led to a new era of information. Data is being used to create more efficient systems and this is where Recommendation Systems come into play. Recommendation Systems are a type of information filtering systems as they improve the quality of search results and provides items that are more relevant to the search item or are realted to the search history of the user. They are active information filtering systems which personalize the information coming to a user based on his interests, relevance of the information etc. Recommender systems are used widely for recommending movies, articles, restaurants, places to visit, items to buy etc. Here I will be using Content Based Filtering
+The era of information has been transformed by the exponential growth of data collection. This has led to the emergence of Recommendation Systems, which are designed to create more efficient systems by using data. These systems are a type of information filtering that enhances search results and provides items that are more relevant to the user's search query or history. They are active filtering systems that personalize the information delivered to the user based on factors such as their interests and the relevance of the information. Recommendation systems are widely used to suggest movies, articles, restaurants, travel destinations, products to purchase, and more. In this case, the Content Based Filtering approach will be utilized.
+
 Content-Based Filtering: This method uses only information about the description and attributes of the items users has previously consumed to model user's preferences. In other words, these algorithms try to recommend items that are similar to those that a user liked in the past (or is examining in the present). In particular, various candidate items are compared with items previously rated by the user and the best-matching items are recommended.
 
 ## Inspiration
-I was always astonished by how each of the restaurants are able to keep up the pace inspite of that cutting edge competition. And what factors should be kept in mind if someone wants to open new restaurant. Does the demography of an area matters? Does location of a particular type of restaurant also depends on the people living in that area? Does the theme of the restaurant matters? Is a food chain category restaurant likely to have more customers than its counter part? Are any neighborhood similar ? If two neighborhood are similar does that mean these are related or particular group of people live in the neighborhood or these are the places to it? What kind of a food is more popular in a locality. Do the entire locality loves vegetarian food. If yes then is that locality populated by a particular sect of people for eg. Jain, Marwaris, Gujaratis who are mostly vegetarian. There are infacts dozens of question in my mind. lets try to find out the answer with this dataset.
+I've always been amazed at how each restaurant manages to keep up with the cutting-edge competition. I'm curious about the factors to consider when opening a new restaurant. Does the demography of an area matter? Do the people living in a particular area determine the type of restaurant that will thrive there? How important is the theme of a restaurant? Are food chain restaurants more likely to attract more customers than independent ones? Are there any similarities between neighborhoods, and if so, are they related to a particular group of people or just the physical location? Which types of food are more popular in certain localities? Is vegetarian food more popular in certain areas due to the presence of a particular sect of people, such as Jain, Marwaris, or Gujaratis, who typically follow a vegetarian diet? There are many questions swirling around in my mind, and I hope to find answers through this dataset.
 
 You can download the dataset here: [Zomato Bangalore Restaurants](https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants/download)
 
@@ -51,12 +48,6 @@ You can download the dataset here: [Zomato Bangalore Restaurants](https://www.ka
 ✔️ Rate Prediction\
 ✔️ Sentiment Analysis of Reviews\
 ✔️ Recommendation System\
-
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-## Contributing 💡
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/chiragsamal/Zomato/pulls) or [issue](https://github.com/chiragsamal/issue/issues).
 
 ### Refrences 👏
  - [Finding the best restaurants in Bangalore](https://www.kaggle.com/parthsharma5795/finding-the-best-restaurants-in-bangalore)
